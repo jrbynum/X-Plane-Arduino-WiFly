@@ -1,0 +1,13 @@
+
+ArduinoMegaXplaneUDP is code to utilize the wifly wireless shield to send/receive UDP packets from the data in/out screen on X Plane. I developed this
+to utilize a couple of wifly boards I had around and interface some swtiches and encoders to my flight sim cockpit.  
+
+Rusty Bynum
+jrbynum@shaw.ca
+
+Beta Version 0.0.1
+
+ - Initial Release - 04/05/2015
+ - Receive is working with up to 6 parameters with a 2 hz update rate from X Plane. 
+ - Note: Core lib was modified to increase the serial buffer size from 64 to 512. See the code for more info.
+ - Lots of optimization and TODO's see code
